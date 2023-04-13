@@ -752,6 +752,6 @@ class __TwigTemplate_8f83dd7f1d0d5fc9fd232819652f6c10 extends Template
         </div>
     </div>
 {% endblock %}
-", "@WebProfiler/Profiler/layout.html.twig", "/Users/mac/Desktop/cours symfony/notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/layout.html.twig");
+", "@WebProfiler/Profiler/layout.html.twig", "/Users/mac/Desktop/cours symfony/notebook-symfony/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/layout.html.twig");
     }
 }

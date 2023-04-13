@@ -194,6 +194,6 @@ class __TwigTemplate_d402b493fbf0345f1cc863af05897ca9 extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/Users/mac/Desktop/cours symfony/notebook/templates/base.html.twig");
+", "base.html.twig", "/Users/mac/Desktop/cours symfony/notebook-symfony/templates/base.html.twig");
     }
 }

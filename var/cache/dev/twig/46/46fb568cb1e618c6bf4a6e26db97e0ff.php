@@ -839,6 +839,6 @@ class __TwigTemplate_7deaa58fcd495c108f26cd977c6cdd31 extends Template
     </table>
     {% endfor %}
 {% endmacro %}
-", "@WebProfiler/Collector/messenger.html.twig", "/Users/mac/Desktop/cours symfony/notebook/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
+", "@WebProfiler/Collector/messenger.html.twig", "/Users/mac/Desktop/cours symfony/notebook-symfony/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
     }
 }

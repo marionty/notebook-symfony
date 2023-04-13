@@ -69,6 +69,6 @@ class __TwigTemplate_45bcfc8539ddb81647ba64ac83b72efc extends Template
     <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>
     <path d=\"M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4\"></path>
 </svg>
-", "@WebProfiler/Icon/redirect.svg", "/Users/mac/Desktop/cours symfony/notebook/vendor/symfony/web-profiler-bundle/Resources/views/Icon/redirect.svg");
+", "@WebProfiler/Icon/redirect.svg", "/Users/mac/Desktop/cours symfony/notebook-symfony/vendor/symfony/web-profiler-bundle/Resources/views/Icon/redirect.svg");
     }
 }
