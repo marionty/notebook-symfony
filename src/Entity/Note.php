@@ -14,13 +14,13 @@ class Note
     private ?int $id = null;
 
     #[ORM\Column(length: 255)]
-    private ?string $tiltle = null;
+    private ?string $title = null;
 
     #[ORM\Column]
-    private ?\DateTimeImmutable $creatAt = null;
+    private ?\DateTimeImmutable $createdAt = null;
 
-    #[ORM\Column(length: 255)]
-    private ?string $updated = null;
+    #[ORM\Column]
+    private ?\DateTimeImmutable $updatedAt = null;
 
     #[ORM\Column(length: 50)]
     private ?string $author = null;
@@ -33,38 +33,38 @@ class Note
         return $this->id;
     }
 
-    public function getTiltle(): ?string
+    public function getTitle(): ?string
     {
-        return $this->tiltle;
+        return $this->title;
     }
 
-    public function setTiltle(string $tiltle): self
+    public function setTitle(string $title): self
     {
-        $this->tiltle = $tiltle;
+        $this->title = $title;
 
         return $this;
     }
 
-    public function getCreatAt(): ?\DateTimeImmutable
+    public function getcreatedAt(): ?\DateTimeImmutable
     {
-        return $this->creatAt;
+        return $this->createdAt;
     }
 
-    public function setCreatAt(\DateTimeImmutable $creatAt): self
+    public function setcreatedAt(\DateTimeImmutable $createdAt): self
     {
-        $this->creatAt = $creatAt;
+        $this->createdAt = $createdAt;
 
         return $this;
     }
 
-    public function getUpdated(): ?string
+    public function getupdatedAt(): ?\DateTimeImmutable
     {
-        return $this->updated;
+        return $this->updatedAt;
     }
 
-    public function setUpdated(string $updated): self
+    public function setupdatedAt(\DateTimeImmutable $updatedAt): self
     {
-        $this->updated = $updated;
+        $this->updatedAt = $updatedAt;
 
         return $this;
     }
